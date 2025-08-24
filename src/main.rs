@@ -1,7 +1,4 @@
-mod game;
-mod game_state;
-
-use game::Game;
+use rs_2048_tui::game::Game;
 
 const DEFAULT_DIM: usize = 4;
 const DEFAULT_UNDOS: usize = 3;
